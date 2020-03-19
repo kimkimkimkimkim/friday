@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f88d622ebf14642ee9653b4bd488b3fe, type: 3}
+  m_Name: CardData
+  m_EditorClassIdentifier: 
+  CardList:
+  - type: 0
+    name: "\u6563\u6F2B"
+    anotherName: 
+    power: -1
+    freeDrawNum: 0
+    calamityValueList: 000000000000000000000000
+    skillType: 0
+  - type: 0
+    name: "\u5F31\u6C17"
+    anotherName: 
+    power: 0
+    freeDrawNum: 0
+    calamityValueList: 000000000000000000000000
+    skillType: 0
+  - type: 0
+    name: "\u98DF\u4E8B"
+    anotherName: 
+    power: 0
+    freeDrawNum: 0
+    calamityValueList: 000000000000000000000000
+    skillType: 1
+  - type: 0
+    name: "\u96C6\u4E2D"
+    anotherName: 
+    power: 1
+    freeDrawNum: 0
+    calamityValueList: 000000000000000000000000
+    skillType: 0
+  - type: 0
+    name: "\u5929\u624D"
+    anotherName: 
+    power: 2
+    freeDrawNum: 0
+    calamityValueList: 000000000000000000000000
+    skillType: 0
+  - type: 1
+    name: "\u3044\u304B\u3060\u3067\u96E3\u7834\u8239\u306B"
+    anotherName: "\u305F\u3079\u3082\u306E"
+    power: 0
+    freeDrawNum: 1
+    calamityValueList: 000000000100000003000000
+    skillType: 1
+  - type: 1
+    name: "\u3044\u304B\u3060\u3067\u96E3\u7834\u8239\u306B"
+    anotherName: "\u8377\u7269"
+    power: 0
+    freeDrawNum: 1
+    calamityValueList: 000000000100000003000000
+    skillType: 4
+  - type: 1
+    name: "\u3044\u304B\u3060\u3067\u96E3\u7834\u8239\u306B"
+    anotherName: "\u5224\u65AD\u529B"
+    power: 0
+    freeDrawNum: 1
+    calamityValueList: 000000000100000003000000
+    skillType: 5
+  - type: 1
+    name: "\u3044\u304B\u3060\u3067\u96E3\u7834\u8239\u306B"
+    anotherName: "\u6A21\u5023"
+    power: 0
+    freeDrawNum: 1
+    calamityValueList: 000000000100000003000000
+    skillType: 7
+  - type: 1
+    name: "\u3044\u304B\u3060\u3067\u96E3\u7834\u8239\u306B"
+    anotherName: "\u8AAD\u66F8"
+    power: 0
+    freeDrawNum: 1
+    calamityValueList: 000000000100000003000000
+    skillType: 8
+  - type: 1
+    name: "\u3044\u304B\u3060\u3067\u96E3\u7834\u8239\u306B"
+    anotherName: "\u6226\u7565"
+    power: 0
+    freeDrawNum: 1
+    calamityValueList: 000000000100000003000000
+    skillType: 11
+  - type: 1
+    name: "\u3044\u304B\u3060\u3067\u96E3\u7834\u8239\u306B"
+    anotherName: "\u3054\u307E\u304B\u3057"
+    power: 0
+    freeDrawNum: 1
+    calamityValueList: 000000000100000003000000
+    skillType: 12
+  - type: 1
+    name: "\u5CF6\u306E\u63A2\u7D22"
+    anotherName: "\u6B66\u5668"
+    power: 2
+    freeDrawNum: 2
+    calamityValueList: 010000000300000006000000
+    skillType: 0
+  - type: 1
+    name: "\u5CF6\u306E\u63A2\u7D22"
+    anotherName: "\u305F\u3079\u3082\u306E"
+    power: 1
+    freeDrawNum: 2
+    calamityValueList: 010000000300000006000000
+    skillType: 1
+  - type: 1
+    name: "\u5CF6\u306E\u63A2\u7D22"
+    anotherName: "\u5224\u65AD\u529B"
+    power: 1
+    freeDrawNum: 2
+    calamityValueList: 010000000300000006000000
+    skillType: 5
+  - type: 1
+    name: "\u5CF6\u306E\u63A2\u7D22"
+    anotherName: "\u7E70\u308A\u8FD4\u3057"
+    power: 1
+    freeDrawNum: 2
+    calamityValueList: 010000000300000006000000
+    skillType: 6
+  - type: 1
+    name: "\u5CF6\u306E\u63A2\u7D22"
+    anotherName: "\u6A21\u5023"
+    power: 1
+    freeDrawNum: 2
+    calamityValueList: 010000000300000006000000
+    skillType: 7
+  - type: 1
+    name: "\u5CF6\u306E\u63A2\u7D22"
+    anotherName: "\u3054\u307E\u304B\u3057"
+    power: 1
+    freeDrawNum: 2
+    calamityValueList: 010000000300000006000000
+    skillType: 12
+  - type: 1
+    name: "\u5CF6\u306E\u5965\u3092\u63A2\u7D22"
+    anotherName: "\u305F\u3079\u3082\u306E"
+    power: 2
+    freeDrawNum: 3
+    calamityValueList: 020000000500000008000000
+    skillType: 1
+  - type: 1
+    name: "\u5CF6\u306E\u5965\u3092\u63A2\u7D22"
+    anotherName: "\u7D4C\u9A13"
+    power: 2
+    freeDrawNum: 3
+    calamityValueList: 020000000500000008000000
+    skillType: 3
+  - type: 1
+    name: "\u5CF6\u306E\u5965\u3092\u63A2\u7D22"
+    anotherName: "\u5224\u65AD\u529B"
+    power: 2
+    freeDrawNum: 3
+    calamityValueList: 020000000500000008000000
+    skillType: 5
+  - type: 1
+    name: "\u5CF6\u306E\u5965\u3092\u63A2\u7D22"
+    anotherName: "\u7E70\u308A\u8FD4\u3057"
+    power: 2
+    freeDrawNum: 3
+    calamityValueList: 020000000500000008000000
+    skillType: 6
+  - type: 1
+    name: "\u5CF6\u306E\u5965\u3092\u63A2\u7D22"
+    anotherName: "\u5929\u5553"
+    power: 2
+    freeDrawNum: 3
+    calamityValueList: 020000000500000008000000
+    skillType: 9
+  - type: 1
+    name: "\u5CF6\u306E\u5965\u3092\u63A2\u7D22"
+    anotherName: "\u6226\u7565"
+    power: 2
+    freeDrawNum: 3
+    calamityValueList: 020000000500000008000000
+    skillType: 10
+  - type: 1
+    name: "\u91CE\u7363"
+    anotherName: "\u7D4C\u9A13"
+    power: 3
+    freeDrawNum: 4
+    calamityValueList: 04000000070000000b000000
+    skillType: 3
+  - type: 1
+    name: "\u91CE\u7363"
+    anotherName: "\u5224\u65AD\u529B"
+    power: 3
+    freeDrawNum: 4
+    calamityValueList: 04000000070000000b000000
+    skillType: 5
+  - type: 1
+    name: "\u91CE\u7363"
+    anotherName: "\u5929\u5553"
+    power: 3
+    freeDrawNum: 4
+    calamityValueList: 04000000070000000b000000
+    skillType: 9
+  - type: 1
+    name: "\u91CE\u7363"
+    anotherName: "\u6226\u7565"
+    power: 3
+    freeDrawNum: 4
+    calamityValueList: 04000000070000000b000000
+    skillType: 10
+  - type: 1
+    name: "\u4EBA\u98DF\u3044\u65CF"
+    anotherName: "\u6B66\u5668"
+    power: 4
+    freeDrawNum: 5
+    calamityValueList: 05000000090000000e000000
+    skillType: 0

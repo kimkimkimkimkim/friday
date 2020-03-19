@@ -5,27 +5,14 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    public Deck robinsonDeck;
+    public Game game;
 
     // Start is called before the first frame update
     void Start()
     {
-        SetDeck();
+      game = new Game();
 
-        robinsonDeck.Shuffle();
-        robinsonDeck.Show();
-    }
-
-    void SetDeck(){
-        robinsonDeck = new Deck(CreateCardList());
-    }
-
-    //デッキのcardListを作成
-    List<Card> CreateCardList(){
-        List<Card> cardList = new List<Card>();
-        for(int i=0;i<10;i++){
-            cardList.Add(new Card(i/3));
-        }
-        return cardList;
+      game.robinsonDeck.Show();
+      game.calamityDeck.Show();
     }
 }
