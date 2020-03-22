@@ -14,6 +14,14 @@ public class Deck
 {
     public List<Card> cardList;
 
+    public int Count(){
+      return cardList.Count();
+    }
+
+    public Deck(){
+      this.cardList = new List<Card>();
+    }
+
     public Deck(DeckType deckType){
       CardData cardData = Resources.Load<CardData>("ScriptableObjects/CardData"); //cardDataのScriptableObject
       this.cardList = new List<Card>();
@@ -44,7 +52,7 @@ public class Deck
     public void Show(){
         string result = "[";
         cardList.ForEach(card => {
-            result += card.GetSkillName() +", ";
+            result += card.name +", ";
         });
         result.Remove(result.Length-2,2);
         result += "]";
